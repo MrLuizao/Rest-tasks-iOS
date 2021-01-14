@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var idLabel: UILabel!
+    
+    @IBOutlet weak var logoImageView: UIImageView!
+    
+    @IBOutlet weak var downloadImageBtn: UIButton!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
@@ -113,5 +118,12 @@ class ViewController: UIViewController {
         self.idLabel.text = user.id?.description
         
     }
+    
+    
+    @IBAction func downloadImageAction(_ sender: Any) {
+        downloadImageBtn.isHidden = true
+        logoImageView.kf.setImage(with: URL(string: "https://cdn.freebiesupply.com/images/large/2x/manchester-united-logo-black-and-white.png"))
+    }
+
 }
 

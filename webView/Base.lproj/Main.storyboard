@@ -45,10 +45,6 @@
                                     <action selector="getResponseHttp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O6c-lL-2Vf"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="CWU-86-554">
-                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
-                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </activityIndicatorView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydX-sJ-1wp">
                                 <rect key="frame" x="50" y="255" width="314" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -68,28 +64,46 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piS-XQ-ZNN">
-                                <rect key="frame" x="150" y="474" width="114" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Post Http Server"/>
-                                <connections>
-                                    <action selector="addUserAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jzu-OU-J0Q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F0-YT-jpb">
-                                <rect key="frame" x="154" y="551" width="106" height="30"/>
+                                <rect key="frame" x="154" y="458" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Put Http Server"/>
                                 <connections>
                                     <action selector="updateUserAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lsN-ww-73B"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piS-XQ-ZNN">
+                                <rect key="frame" x="150" y="403" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Post Http Server"/>
+                                <connections>
+                                    <action selector="addUserAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jzu-OU-J0Q"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tqT-lM-D0K">
+                                <rect key="frame" x="113" y="577" width="189" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8n-aY-a5a">
-                                <rect key="frame" x="143" y="619" width="128" height="30"/>
+                                <rect key="frame" x="143" y="513" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Delete Http Server"/>
                                 <connections>
                                     <action selector="deleteUserAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WzM-Yj-atI"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="CWU-86-554">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSw-aC-c03">
+                                <rect key="frame" x="150" y="763" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.60392156860000001" green="0.23529411759999999" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Download Image"/>
+                                <connections>
+                                    <action selector="downloadImageAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cud-FB-4lx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -118,8 +132,10 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="activityIndicator" destination="CWU-86-554" id="hX4-LG-XYx"/>
+                        <outlet property="downloadImageBtn" destination="aSw-aC-c03" id="L6Y-9x-HEb"/>
                         <outlet property="emailLabel" destination="Tae-5p-SP7" id="H5u-47-tkE"/>
                         <outlet property="idLabel" destination="F1k-uE-bgp" id="Ui6-f5-WJU"/>
+                        <outlet property="logoImageView" destination="tqT-lM-D0K" id="DiS-uP-3m0"/>
                         <outlet property="nameLabel" destination="ydX-sJ-1wp" id="prb-8h-Q7R"/>
                     </connections>
                 </viewController>
