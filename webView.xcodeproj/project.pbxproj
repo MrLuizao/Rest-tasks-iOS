@@ -10,6 +10,7 @@
 		4C3977FB25B017C00086D13E /* DateDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3977FA25B017C00086D13E /* DateDecoder.swift */; };
 		4C39780325B026DC0086D13E /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39780225B026DC0086D13E /* NewUser.swift */; };
 		4C39780925B03E9F0086D13E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4C39780825B03E9F0086D13E /* Kingfisher */; };
+		4C4A903325B6D05D00BDB0CB /* PersitanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A903225B6D05D00BDB0CB /* PersitanceViewController.swift */; };
 		4CB0CA4725AD5C1300228592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0CA4625AD5C1300228592 /* AppDelegate.swift */; };
 		4CB0CA4925AD5C1300228592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0CA4825AD5C1300228592 /* SceneDelegate.swift */; };
 		4CB0CA4B25AD5C1300228592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0CA4A25AD5C1300228592 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		4C3977FA25B017C00086D13E /* DateDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDecoder.swift; sourceTree = "<group>"; };
 		4C39780225B026DC0086D13E /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		4C4A903225B6D05D00BDB0CB /* PersitanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersitanceViewController.swift; sourceTree = "<group>"; };
 		4CB0CA4325AD5C1300228592 /* webView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB0CA4625AD5C1300228592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB0CA4825AD5C1300228592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				4CB0CA4625AD5C1300228592 /* AppDelegate.swift */,
 				4CB0CA4825AD5C1300228592 /* SceneDelegate.swift */,
 				4CB0CA4A25AD5C1300228592 /* ViewController.swift */,
+				4C4A903225B6D05D00BDB0CB /* PersitanceViewController.swift */,
 				4CB0CA4C25AD5C1300228592 /* Main.storyboard */,
 				4CB0CA4F25AD5C1600228592 /* Assets.xcassets */,
 				4CB0CA5125AD5C1600228592 /* LaunchScreen.storyboard */,
@@ -312,6 +315,7 @@
 				4CB0CAB825AD7D3400228592 /* User.swift in Sources */,
 				4C3977FB25B017C00086D13E /* DateDecoder.swift in Sources */,
 				4CB0CAB125AD7D0100228592 /* Networking.swift in Sources */,
+				4C4A903325B6D05D00BDB0CB /* PersitanceViewController.swift in Sources */,
 				4C39780325B026DC0086D13E /* NewUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

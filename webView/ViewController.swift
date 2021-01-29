@@ -125,5 +125,8 @@ class ViewController: UIViewController {
         logoImageView.kf.setImage(with: URL(string: "https://cdn.freebiesupply.com/images/large/2x/manchester-united-logo-black-and-white.png"))
     }
 
+    
+    @IBAction func btnNavigate(_ sender: Any) {
+    }
 }
 
